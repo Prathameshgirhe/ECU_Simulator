@@ -114,17 +114,17 @@ sequenceDiagram
 
 | Hardware Setup | CAN Bus Trace |
 |:---:|:---:|
-| <img src="docs/images/hardware_setup.jpg" width="420"/> | <img src="docs/images/can_trace.png" width="420"/> |
+| <img src="docs/images/hardware_setup.svg" width="420"/> | <img src="docs/images/can_trace.svg" width="420"/> |
 | *STM32 board + CAN transceiver* | *Frames captured on the bus* |
 
 | Serial / Debug Log | Bootloader Flashing |
 |:---:|:---:|
-| <img src="docs/images/debug_log.png" width="420"/> | <img src="docs/images/bootloader_flash.png" width="420"/> |
+| <img src="docs/images/debug_log.svg" width="420"/> | <img src="docs/images/bootloader_flash.svg" width="420"/> |
 | *Task output and diagnostic messages* | *Firmware update in progress* |
 
 | Fault Injection Result | Oscilloscope / Logic Analyzer |
 |:---:|:---:|
-| <img src="docs/images/fault_injection.png" width="420"/> | <img src="docs/images/logic_analyzer.png" width="420"/> |
+| <img src="docs/images/fault_injection.svg" width="420"/> | <img src="docs/images/logic_analyzer.svg" width="420"/> |
 | *DTC raised after injected fault* | *CAN waveform at bit level* |
 
 </div>
